@@ -33,8 +33,6 @@ namespace CameraAPItest
             List<Surface> targets = new List<Surface>();
             targets.Add(surfacePreview);
             targets.Add(imageSurface);
-
-            CameraDevice.
         }
 
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)
